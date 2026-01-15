@@ -1,0 +1,87 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin: -8px;
+    padding: 0px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+#home:hover{
+    color: gray;
+    cursor: pointer;   
+}
+.portfolio{
+    padding: 8px;
+    padding-left: 25px;
+}
+h5{
+    padding: 8px;
+    padding-top: 15px;
+    padding-right: 25px;
+    margin-left: -15px;
+}
+.content{
+    margin-left: 180px;
+    margin-top: 130px;
+    font-size: 30px;
+}
+.photo{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    border-radius: 100%;
+    margin-top: 70px;
+    height: 400px;
+    width: 400px;
+    margin-right: 80px;
+}
+#whole{
+    display: block;
+    
+}
+#bio{
+    margin-top: 20px;
+    margin-left: 250px;
+    display: none;
+}
+#about:hover{
+    color: gray;
+    cursor: pointer;
+}
+li{
+    margin-top: 10px;
+}
+#obj:hover{
+    color: gray;
+    cursor: pointer;
+}
+#allobj{
+    display: none;
+}
+#educate:hover{
+    color: gray;
+    cursor: pointer;
+
+
+}
+#education{
+    display: none;
+    margin-left: 20px;
+}
+#contact:hover{
+    color: grey;
+    cursor: pointer;
+
+
+}
+#contactme{
+    display:none;
+
+}
